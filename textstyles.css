@@ -1,0 +1,118 @@
+/*Universal color and font*/
+* {
+	font-family: Arial, sans-serif; 
+	color: black;
+	box-sizing: border-box;
+}
+header, footer {
+	background-color: black;
+}
+/*Copyright and Contact Details*/
+small {color: white;}
+/*Background design*/
+body {
+    background-color: orange;
+	padding: 50px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+h2 {
+	color: white;	
+}
+h3 {
+	font-style: italic;
+	color: white;
+}
+p {
+	text-align: center;
+}
+/*Navbar links*/
+.homepage {
+	text-align: right;
+	color: white;
+	font-family: "comic sans ms";
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.homepage a:hover	{
+	background-color: white;
+	color: black;
+}
+.garfield	{
+	text-align: right;
+	font-family: "comic sans ms";
+	font-size:	400%;
+	text-transform: uppercase;
+}
+.youtube	{
+	float: right;
+}
+.questions	{
+	 font-style: italic;
+	 font-family: "comic sans ms";
+	 text-align: left;
+	 color: white;
+ }
+/*Home,About,Contact pictures*/
+.picture1	{
+	float: right;
+}
+.picture2	{
+	float: left;
+	width: 33.33%;
+	padding: 50px;
+}
+.picture3	{
+	width:	20%;
+	margin: auto;
+}
+.col:	{
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
+}
+/*Twitter*/
+.twitter-timeline	{
+	width: 50%;
+}
+/*Table Design*/
+ol li	{
+	 font-family: cursive;
+	 border: 2px 
+ }
+ table {
+	 width: 10%; 
+	 color: black;
+	 margin: auto;
+	 border-collapse: collapse;
+ }
+ tr	{
+	 border-style: dotted;
+ }
+ td	{
+	 text-align: center;
+	 border-style: dotted;
+ }
+ caption	{
+	 caption-side: bottom;
+	 margin-top: 0.4em;
+	 font-family: "comic sans ms";
+ }
+ /*Form Design*/
+input[type=text]	{
+	width: 15%;
+	padding: 5px 15px;
+	box-sizing: border-box;
+	background-color: white;
+	color: black;
+}
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+ 
